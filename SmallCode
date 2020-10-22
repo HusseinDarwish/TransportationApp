@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Transport Application</h1>
+
+
+  <input type="text" id="StartBahnhof" name="StartBahnhof" placeholder="von Bahnhof"><br><br>
+  <input type="text" id="EndBahnhof" name="EndBahnhof" placeholder="nach Bahnhof"><br><br>
+  
+  <input type="datetime-local" id="TravellingTime" name="TravellingTime"><br><br>
+  <button onclick="myFunction()">Click me</button>
+  <p id="demo"></p>
+  <p id="demoo"></p>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = document.getElementById("StartBahnhof").value;
+  document.getElementById("demoo").innerHTML = document.getElementById("TravellingTime").value;
+}
+</script>
+
+</body>
+</html>
